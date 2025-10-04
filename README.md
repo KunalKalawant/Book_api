@@ -31,10 +31,17 @@ POST /login: Authenticate and get JWT
 Book Endpoints:
 
 GET / : Get all books
+
 GET /isbn/:isbn : Get book details by ISBN
+
 GET /author/:author : Get books by author
+
 GET /title/:title : Get books by title
+
 GET /review/:isbn : Get book reviews
+
 Protected Endpoints (JWT required):
+
 PUT /auth/review/:isbn : Add or modify a book review
+
 DELETE /auth/review/:isbn : Delete your book review
